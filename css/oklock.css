@@ -1,0 +1,311 @@
+/* encode-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/encode-sans-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* encode-sans-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/encode-sans-v19-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  font-family: "Encode Sans";
+  justify-content: center;
+}
+
+.box {
+  height: 500px;
+  width: 240px;
+  margin-top: 100px;
+  background-color: rgb(193, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.outter {
+  height: 490px;
+  width: 230px;
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.inner {
+  height: 480px;
+  width: 220px;
+  background-color: rgb(156, 146, 146);
+  border-radius: 35px;
+  display: block;
+  justify-content: center;
+  border-radius: 35px;
+  background: url("../images/iPhone-14.jpg") no-repeat;
+  background-size: 100%;
+}
+.phone-top {
+  display: flex;
+  margin-left: 35px;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5px; */
+}
+.phone-top__wife {
+  font-size: 10px;
+}
+
+.hours {
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+}
+#clock {
+  font-family: "Encode Sans";
+  font-size: 10px;
+  color: black;
+  margin-right: 20px;
+  /* font-weight: 900; */
+}
+
+.main-phone {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.alarm {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.wrapper h1 {
+  font-size: 20px;
+  padding: 15px;
+  background-color: #a4a4a472;
+  border-radius: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.wrapper .content {
+  padding: 20px 4px;
+  background-color: rgba(236, 236, 236, 0.518);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content .column {
+  padding: 0px 10px;
+  color: #fff;
+  border-radius: 8px;
+}
+.column-text{
+    color: #fff;
+}
+.column select {
+  outline: none;
+  border: none;
+  background: transparent;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wrapper button {
+  /* width: 100%; */
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 16px;
+  padding: 8px 30px;
+  border-radius: 5px;
+  background-color: rgb(239, 176, 95);
+}
+
+.wrapper .content.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+.inner-content {
+  
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(114, 114, 114, 0.295);
+  border-radius: 35px;
+  gap: 10px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+.icon-content {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: green;
+}
+.icon-content:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+.telegram {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.telegram:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+.icon-content1 {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  /* color: green; */
+}
+
+.icon-content1:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+.inner-comment {
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  color: blue;
+}
+.inner-comment:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+.inner-line:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+.page-main{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.icon{
+  display: flex;
+  /* margin-top: 5px; */
+  justify-content: center;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+.link{
+  display: block;
+}
+.icon:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+.notch {
+  margin-right: auto;
+  margin-left: auto;
+  height: 18px;
+  width: 82px;
+  background-color: black;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.notch:after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 50px;
+  background-color: rgb(58, 56, 56);
+}
+
+.notch:before {
+  display: block;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: rgb(61, 61, 60);
+  border-radius: 20px;
+  position: absolute;
+  margin: 3px 0px 0px -60px;
+}
+
+.sim {
+  height: 22px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 197px 0px 0px 8px;
+  z-index: 0;
+}
+.vUp {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 16px 0px 0px 8px;
+  z-index: 0;
+}
+.vDown {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 8px 0px 0px 8px;
+  z-index: 0;
+}
+
+.vim {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 220px 0px 0px -1px;
+  z-index: 0;
+}

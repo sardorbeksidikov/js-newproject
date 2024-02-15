@@ -1,0 +1,176 @@
+/* encode-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/encode-sans-v19-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* encode-sans-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Encode Sans";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/encode-sans-v19-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  font-family: "Encode Sans";
+  justify-content: center;
+}
+
+.box {
+  height: 500px;
+  width: 240px;
+  margin-top: 100px;
+  background-color: rgb(193, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.outter {
+  height: 490px;
+  width: 230px;
+  background-color: black;
+  border-radius: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+}
+
+.inner {
+  height: 480px;
+  width: 220px;
+  background-color: rgb(156, 146, 146);
+  border-radius: 35px;
+  display: block;
+  justify-content: center;
+  border-radius: 35px;
+  background: url("../images/iPhone-14.jpg") no-repeat;
+  background-size: 100%;
+}
+
+.hours {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 0px;
+  justify-content: center;
+}
+#clock {
+  font-family: "Encode Sans";
+  font-size: 50px;
+  color: aliceblue;
+  font-weight: 900;
+}
+
+.inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 280px;
+  margin-bottom: 10px;
+}
+.icon-content {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  border-radius: 50px;
+  background-color: aliceblue;
+}
+.icon-content:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+.line {
+  display: block;
+  padding: 2px 90px 2px 2px;
+  height: 6px;
+  max-width: 90px;
+  margin-top: 20px;
+  background-color: aliceblue;
+  border-radius: 35px;
+}
+.line:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  background-color: rgb(214, 222, 230);
+}
+
+/* index end */
+
+.notch {
+  margin-right: auto;
+  margin-left: auto;
+  height: 18px;
+  width: 82px;
+  background-color: black;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.notch:after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 50px;
+  background-color: rgb(58, 56, 56);
+}
+
+.notch:before {
+  display: block;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: rgb(61, 61, 60);
+  border-radius: 20px;
+  position: absolute;
+  margin: 3px 0px 0px -60px;
+}
+
+.sim {
+  height: 22px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 197px 0px 0px 8px;
+  z-index: 0;
+}
+.vUp {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 16px 0px 0px 8px;
+  z-index: 0;
+}
+.vDown {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin: 8px 0px 0px 8px;
+  z-index: 0;
+}
+
+.vim {
+  height: 30px;
+  width: 4px;
+  background-color: rgb(156, 146, 146);
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  margin: 220px 0px 0px -1px;
+  z-index: 0;
+}
